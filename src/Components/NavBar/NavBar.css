@@ -1,0 +1,50 @@
+.navbar{
+    list-style-type: none;
+    margin: 20px;
+    padding-left: 350px;
+    overflow: hidden;
+    display: flex;
+    justify-self: flex-end;
+    align-items: center;
+    top: 0;
+    width: 80%;
+    height: 10%;
+    background-color:#B3B3BC;
+}
+
+.navbar__link{
+    display: inline;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar__link ::-moz-focus-outer{
+    background-color:#002ead;
+    transition: 0.7s;
+}
+
+.navbar__search{
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 80px;
+    background-color: #B3B3BC;
+    border: 1px solid grey;
+    margin-right: 40px;
+}
+
+.navbar__search ::placeholder{
+     text-transform: uppercase;
+}
+
+
+.navbar span{
+    color: grey;
+    justify-content: space-between;
+    margin: 10px;
+    margin-left: 30px;
+}
+
