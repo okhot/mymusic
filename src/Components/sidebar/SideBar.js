@@ -5,7 +5,7 @@ function SideBar() {
   return (
     <div className='side-bar'>
         <div className='logo'>
-          <img></img>
+          <img src={require('../../images/logo.png')}/>
         </div>
         <ul className='side-bar__list'>
             <h3>MENU</h3>
