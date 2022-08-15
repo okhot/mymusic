@@ -1,0 +1,16 @@
+.home
+{
+    margin: 70px 0px 0px 330px;
+}
+.top-artist
+{
+    background-color: white;
+    padding: 30px 10px;
+    border-radius: 15px;
+    width: 850px;
+}
+.top-artist__boxs
+{
+    display: flex;
+    flex-wrap: wrap;
+}

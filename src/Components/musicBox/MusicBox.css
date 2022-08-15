@@ -1,0 +1,27 @@
+.music-box
+{
+    width: 120px;
+    text-align: center;
+    margin-right: 0.5rem;
+}
+.music-box__img-box
+{
+    height: 90px;
+    width: 90px;
+    background-color: #D6D6D6;
+    margin: 0px auto;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.music-box__artist-name
+{
+    margin: 0;
+    margin-bottom: 5px
+}
+.music-box__views
+{
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+    color: #4D4D56;
+}

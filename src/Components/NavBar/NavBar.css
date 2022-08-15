@@ -8,6 +8,8 @@
     align-items: center;
     top: 0;
     width: 80%;
+    position: fixed;
+
     height: 10%;
 
 }
