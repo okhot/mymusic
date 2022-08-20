@@ -1,0 +1,20 @@
+.right-side-bar
+{
+    position: fixed;
+    right: 0;
+    top: 84px;
+    z-index: 1111;
+    width: 380px;
+    height: 622px;
+    background-color: white
+}
+.top-weekly
+{
+    padding-left: 30px;
+}
+.top-weekly .header
+{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px
+}

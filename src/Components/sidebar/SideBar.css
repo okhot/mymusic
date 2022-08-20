@@ -1,7 +1,7 @@
 .side-bar
 {
     position: fixed;
-    width: 280px;  
+    width: 250px;  
     top: 0px;  
     overflow: scroll;
     height: 697px;
@@ -10,10 +10,9 @@
 }
 .side-bar .logo
 {
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-left: 3rem;
-    margin-bottom: 4rem;
-    
+    margin-bottom: 4rem;  
 }
 .side-bar::-webkit-scrollbar
 {

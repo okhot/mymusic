@@ -1,22 +1,45 @@
 .music-box
 {
-    width: 120px;
-    text-align: center;
-    margin-right: 0.5rem;
+    height: 80px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0.1rem;
+    margin-bottom: 1rem;
+}
+.music-box__content,
+.music-box__icons
+{
+    display: flex;
+    gap: 1rem;
+    
+}
+.music-box__icons
+{
+    line-height: 40px
+}
+.music-box__icons i
+{
+    line-height: 76px;
+    font-size: 25px;
+    color: #787887
 }
 .music-box__img-box
 {
-    height: 90px;
-    width: 90px;
+    height: 67px;
+    width: 67px;
+    margin-top: 5px;
     background-color: #D6D6D6;
-    margin: 0px auto;
     border-radius: 15px;
-    margin-bottom: 10px;
+    
 }
 .music-box__artist-name
 {
     margin: 0;
-    margin-bottom: 5px
+    margin-bottom: 5px;
+    font-size: 16px;
 }
 .music-box__views
 {

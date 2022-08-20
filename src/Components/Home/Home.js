@@ -6,19 +6,20 @@ import MusicBox from '../musicBox/MusicBox'
 function Home() {
   return (
     <div className='home'>
-        <Feature/>
-        <div className='top-artist'>
-          <h3>TOP ARTISTS</h3>
-          <div className='top-artist__boxs'>
-            <MusicBox />
-            <MusicBox />
-            <MusicBox />
-            <MusicBox />
-            <MusicBox />
-            <MusicBox />
+        <div className='home__header'>
+          <h3 className='home__title'>My Music</h3>
+          <div className='home__functions'>
+            <p><i class="fa-solid fa-play"></i>play</p>
+            <p><i class="fa-solid fa-shuffle"></i>shuffle</p>
           </div>
-          
         </div>
+        <MusicBox />
+        <MusicBox />
+        <MusicBox />
+        <MusicBox />
+        <MusicBox />
+        <Feature/>
+        
     </div>
   )
 }

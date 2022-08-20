@@ -1,15 +1,16 @@
 .navbar{
     list-style-type: none;
-    margin: 20px;
-    padding-left: 350px;
+    padding: 10px 0px;
+    padding-left: 70px;
     overflow: hidden;
     display: flex;
     justify-self: flex-end;
     align-items: center;
     top: 0;
-    width: 80%;
+    width: 76%;
     position: fixed;
-
+    right: 0;
+    background-color: #F0F0F5;
     height: 10%;
 
 }
